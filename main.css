@@ -47,7 +47,7 @@
 
 /* mute deafen and settings buttons */
 /* totally not stolen code from LuckFire#4800 */
-.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons)  {
     position: fixed !important;
     z-index: 5;
     background-color: var(--background-secondary-alt) !important;
@@ -63,7 +63,7 @@
 .platform-win .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons),
 .platform-osx .nameTag-3uD-yy.canCopy-2VBT7N,
 .platform-osx .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
-    top: 93%;
+    margin-bottom: 90px;
 
 }
 
