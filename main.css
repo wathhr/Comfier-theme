@@ -79,6 +79,27 @@
     width: 0
 }
 
+/* thanks to Freeplay#5676! */
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
+    padding-right: 30px;
+    background-color: transparent !important;
+}
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) > button {
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: 0 !important;
+}
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) > button:first-of-type {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) > button:last-of-type {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+    z-index: 6;
+}
+
 
 /* -- User settings -- */
 
