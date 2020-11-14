@@ -1,0 +1,133 @@
+/* if you look at this code you will vomit */
+/* -- PM part -- */
+
+.peopleColumn-29fq28, .inset-3sAvek { background-color: var(--background-primary) !important; }
+.outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: var(--background-primary) !important;
+}
+
+
+/* -- Chat part -- */
+
+.channelTextArea-rNsIhG, .wrapper-39oAo3 { 
+    width: auto;
+    margin: 11px 0 24px 55px;
+}
+
+.jumpToPresentBar-G1R9s6 {
+    margin-bottom: -10px;
+    margin-left: 55px; 
+    backdrop-filter: blur(1px);
+}
+
+.autocomplete-1vrmpx { background: var(--background-secondary-alt) !important; }
+.selected-1Tbx07 { background: var(--background-primary) !important; }
+
+
+/* -- Avatar -- */
+
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+    position: fixed;
+    z-index: 5;
+    bottom: 31px;
+    left: 325px;
+}
+
+.avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 4px; }
+.container-1D34oG, .applicationStore-1pNvnv, .scroller-1d5FgU { z-index: 6; }
+   
+
+/* -- User activity settings -- */
+
+.animatorTop-2Y7x2r > .styleFixed-sX-yHV { margin-bottom: -3px; width: 43px; background: var(--background-secondary-alt); }
+.customEmojiPlaceholder-37iZ_j { background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/512px-Twemoji_1f600.svg.png); }
+.status-1fhblQ, .description-2L932D { display: none;}
+.footer-2gL1pp { background-color : var(--background-secondary-alt) !important; }
+
+
+/* mute deafen and settings buttons */
+/* totally not stolen code from LuckFire#4800 */
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
+    position: fixed !important;
+    z-index: 5;
+    background-color: var(--background-secondary-alt) !important;
+    transition: 150ms ease;
+    border-radius: 5px;
+    padding: 2px 0 2px 0;
+    margin-left: 143px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.platform-win .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-win .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons),
+.platform-osx .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-osx .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
+    top: 890px;
+
+}
+
+.platform-linux .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-linux .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
+    top: 15px;
+}
+
+.avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
+.avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover,
+.avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons),
+.avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
+    opacity: 1;
+    pointer-events: all;
+    transition: 150ms ease;
+}
+.panels-j1Uci_ > .container-3baos1:last-child {
+    z-index: -3;
+    height: 0;
+    width: 0
+}
+
+
+/* -- User settings -- */
+
+.formNotice-2_hHWR, .paymentRow-2e7VM6, .pageActions-1SVAnA, .codeRedemptionRedirect-1wVR4b, .attendeeCTA-3ZZQWt, .notDetected-33MY4s { background: var(--background-secondary-alt) !important; }
+.summaryInfo-2QFKUg { background: var(--background-primary) !important; }
+.bottomDivider-1K9Gao { border-bottom-color: var(--background-secondary) !important;}
+
+
+/* color changes */
+
+.body-3iLsc4, .footer-1fjuF6 { background-color: var(--background-secondary) !important; }
+:root {
+    --background-primary: #292841 !important;
+    --background-secondary: #242338 !important;
+    --background-secondary-alt: #3c3a5e !important;
+    --background-tertiary: #1c1b29 !important;
+    --background-accent: #413f66 !important;
+    --background-floating: #15141e !important;
+    --background-modifier-hover: rgba(50, 50, 72, 0.35) !important;
+    --background-modifier-active: rgba(255,255,255,0.03) !important;
+    --background-modifier-selected: rgba(62, 61, 90, 0.35) !important;
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --channeltextarea-background: var(--background-accent) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #817eb3 !important;
+    --text-muted: #5e5e5e !important;
+    --text-normal: #fbfbfb !important;
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #b5b2ff !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #7f7cbd !important;
+    --header-secondary: #636194 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+    --offline-color: #444444 !important;
+    --text-muted: #817eb3 !important;
+    --interactive-normal: #7f7cbd !important;
+    --interactive-active: #d7d5ff !important;
+}
