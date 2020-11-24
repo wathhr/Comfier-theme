@@ -55,14 +55,14 @@
     transition: 150ms ease;
     border-radius: 5px;
     padding: 2px 0 2px 0;
-    margin-left: 143px;
     opacity: 0;
     pointer-events: none;
 }
 
 .nameTag-3uD-yy.canCopy-2VBT7N,
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
-    margin-bottom: 90px;
+    bottom: 30px;
+    margin-left: 143px;
 }
 
 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
