@@ -1,49 +1,26 @@
 /* if you look at this code you will vomit */
-/* -- PM part -- */
-
-.peopleColumn-29fq28, .inset-3sAvek { background-color: var(--background-primary) !important; }
-.outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
-    background-color: var(--background-primary) !important;
-}
-
-
 /* -- Chat part -- */
-
 .channelTextArea-rNsIhG, .wrapper-39oAo3 { 
     width: auto;
     margin: 11px 0 24px 55px;
 }
-
 .jumpToPresentBar-G1R9s6 {
     margin-bottom: -10px;
     margin-left: 55px; 
-    backdrop-filter: blur(1px);
 }
 
-.autocomplete-1vrmpx { background: var(--background-secondary-alt) !important; }
-.selected-1Tbx07 { background: var(--background-primary) !important; }
-
-
 /* -- Avatar -- */
-
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
     position: fixed;
-    z-index: 5;
+    z-index: 0.1 !important;
     bottom: 31px;
     left: 325px;
 }
-
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 4px; }
-.container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv, .pageWrapper-1PgVDX { z-index: 6;}
-   
 
 /* -- User activity settings -- */
-
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV { margin-bottom: -3px; width: 43px; background: var(--background-secondary-alt); }
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/512px-Twemoji_1f600.svg.png); }
-.status-1fhblQ, .description-2L932D { display: none;}
-.footer-2gL1pp { background-color : var(--background-secondary-alt) !important; }
-
 
 /* mute deafen and settings buttons */
 /* totally not stolen code from LuckFire#4800 */
@@ -57,7 +34,6 @@
     opacity: 0;
     pointer-events: none;
 }
-
 .nameTag-3uD-yy.canCopy-2VBT7N,
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     bottom: 30px;
@@ -99,15 +75,9 @@
     z-index: 6;
 }
 
+/* maybe fixes */
 
-/* -- User settings -- */
-
-.formNotice-2_hHWR, .paymentRow-2e7VM6, .pageActions-1SVAnA, .codeRedemptionRedirect-1wVR4b, .attendeeCTA-3ZZQWt, .notDetected-33MY4s { background: var(--background-secondary-alt) !important; }
-.summaryInfo-2QFKUg { background: var(--background-primary) !important; }
-.bottomDivider-1K9Gao { border-bottom-color: var(--background-secondary) !important;}
-
-
-/* color changes */
-
-.body-3iLsc4, .footer-1fjuF6 { background-color: var(--background-secondary) !important; }
-
+/* move the show/hide chat in group chats */
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 > * {
+    right: -50px !important;
+}
