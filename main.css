@@ -12,7 +12,7 @@
 /* -- Avatar -- */
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
     position: fixed;
-    z-index: 0.1 !important;
+    z-index: 1 !important;
     bottom: 31px;
     left: 325px;
 }
@@ -77,8 +77,7 @@
 
 /* maybe fixes */
 
-/* move the show/hide chat in group chats */
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 > *:not(.wrapper-3t9DeA) {
-    right: -50px !important;
+/* make the avatar thing hide */
+.container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv, .pageWrapper-1PgVDX, .noChat-18KtBD {
+    z-index: 8 !important;
 }
-
