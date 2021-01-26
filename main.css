@@ -18,8 +18,20 @@
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 4px; }
 
 /* -- User activity settings -- */
-.animatorTop-2Y7x2r > .styleFixed-sX-yHV { margin-bottom: -3px; width: 43px; background: var(--background-secondary-alt); }
+.animatorTop-2Y7x2r > .styleFixed-sX-yHV { margin-bottom: -3px; width: 45px; background: var(--background-secondary-alt); }
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/512px-Twemoji_1f600.svg.png); }
+.clearStatusIcon-3-MDNF, .item-1tOPte.colorDefault-2K3EoJ[id="status-picker-game-activity"] { margin-right: 2.5px; margin-left: 0; }
+.item-1tOPte.colorDefault-2K3EoJ[id="status-picker-game-activity"] > .statusItem-33LqPf > svg { width: 16px !important; height: 16px !important; }
+.scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih > * > .statusItem-33LqPf {
+    padding-left: 10px;
+    size: 100px;
+}
+
+.scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih > * > .statusItem-33LqPf > * {
+  font-size: 0px;
+  width: 12.5px !important;
+  height: 12.5px !important;
+}
 
 /* mute deafen and settings buttons */
 /* totally not stolen code from LuckFire#4800 */
