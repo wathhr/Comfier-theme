@@ -92,3 +92,33 @@
 .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv, .pageWrapper-1PgVDX, .noChat-18KtBD {
     z-index: 8 !important;
 }
+
+/** If the theme ever breaks, it's up to you to fix it. */ 
+/* Feel free to create a repo with this theme's CSS or idea, no need to give me credit. (The main "idea" came from Nyria's 'Comfy theme'; which you can find here: https://github.com/NYRI4/Comfy, you might need to ask them for permission.) **/
+
+/* End of life warning message (credit goes to https://github.com/Snippets-For-Discord/theme-warnings) */
+@keyframes Popup {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.layer-3QrUeG:first-of-type::before {
+  content: "Comfier theme is officially dead, I suggest disabling it; if you genuinely want to keep on using it, go into this theme's CSS file (likely located in %userprofile%/powercord/src/powercord/themes/comfier-theme) and remove the lines 99-125.";
+  z-index: 9999;
+  background: #202020e0;
+  color: #fffffff0;
+  position: fixed;
+  text-align: center;
+  padding: 20px;
+  width: 470px;
+  top: 85px;
+  left: 35%;
+  border-radius: 7.5px;
+  box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+  border: 3px solid #F04747e0;
+  animation: Popup .75s;
+  animation-delay: 1s;
+}
